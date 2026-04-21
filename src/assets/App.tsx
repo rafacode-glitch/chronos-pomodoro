@@ -1,4 +1,4 @@
-import { Heading } from './components/Heading';
+import { Heading } from '../components/Heading';
 
 import './styles/theme.css';
 import './styles/global.css';
@@ -6,13 +6,12 @@ import './styles/global.css';
 export function App() {
   return (
     <>
-      <Heading attr={123} attr2='String'>
-        Olá mundo 1
-      </Heading>
+      <Heading>Olá mundo 1</Heading>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ex
-        ducimus quae, iusto provident mollitia ad rerum, id ut, at magnam
-        doloremque quas. Velit accusamus beatae repellendus a perspiciatis hic!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum cumque
+        incidunt accusamus commodi quasi sit, doloribus in fugiat, repellat
+        laudantium voluptas praesentium labore dolore unde! Aliquam, dolorem! A,
+        quia rerum!
       </p>
     </>
   );
